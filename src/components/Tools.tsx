@@ -4,6 +4,7 @@ import tools01 from "../../public/images/tool01.png";
 import tools02 from "../../public/images/tool02.png";
 import tools03 from "../../public/images/tool03.png";
 import tools04 from "../../public/images/tool04.png";
+import Container from "./Container";
 
 const toolsData = [
   {
@@ -58,25 +59,26 @@ const toolsData = [
 
 const Tools = () => {
   return (
-    <div className="mt-36">
-      <Title
-        title={"54 exciting writing tools"}
-        paragrapg={
-          "AI engines take information from various sources and read them like a human would do."
-        }
-      ></Title>
-
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-14">
-        {toolsData?.map((item) => (
-          <CardTools
-            key={item.id}
-            toolsImg={item.icon}
-            title={item.title}
-            paragraph={item.description}
-          ></CardTools>
-        ))}
+    <Container>
+      <div className="mt-36">
+        <Title
+          title={"54 exciting writing tools"}
+          paragraph={
+            "AI engines take information from various sources and read them like a human would do."
+          }
+        ></Title>
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-14">
+          {toolsData?.map((item) => (
+            <CardTools
+              key={item.id}
+              toolsImg={item.icon}
+              title={item.title}
+              paragraph={item.description}
+            ></CardTools>
+          ))}
+        </div>
       </div>
-    </div>
+    </Container>
   );
 };
 
