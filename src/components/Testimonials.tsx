@@ -18,7 +18,7 @@ const testimonials = [
     avatar: pro01,
     content:
       "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
-    hashtags: ["another"],
+    hashtags: "another",
   },
   {
     name: "Guy Hawkins",
@@ -26,7 +26,7 @@ const testimonials = [
     avatar: pro05,
     content:
       "This is a top quality product. No need to think twice before making it live on web.",
-    hashtags: ["make_it_fast"],
+    hashtags: "make_it_fast",
   },
   {
     name: "Leslie Alexander",
@@ -34,7 +34,7 @@ const testimonials = [
     avatar: pro02,
     content:
       "Simply the best. Better than all the rest. I'd recommend this product to beginners and advanced users.",
-    hashtags: ["postcrafts"],
+    hashtags: "postcrafts",
   },
   {
     name: "Marvin McKinney",
@@ -42,7 +42,7 @@ const testimonials = [
     avatar: pro06,
     content:
       "With Postcrafts, it's quicker with the customer, the customer is more ensured of getting exactly what they ordered, and I'm all for the efficiency.",
-    hashtags: ["dev", "tools"],
+    hashtags: "dev #tools",
   },
   {
     name: "Jenny Wilson",
@@ -50,7 +50,7 @@ const testimonials = [
     avatar: pro03,
     content:
       "This is a top quality product. No need to think twice before making it live on web.",
-    hashtags: ["make_it_fast"],
+    hashtags: "make_it_fast",
   },
   {
     name: "Annette Black",
@@ -58,7 +58,7 @@ const testimonials = [
     avatar: pro07,
     content:
       "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
-    hashtags: ["another"],
+    hashtags: "another",
   },
   {
     name: "Kristin Watson",
@@ -66,7 +66,7 @@ const testimonials = [
     avatar: pro04,
     content:
       "Finally, I've found a template that covers all bases for a bootstrapped startup. We were able to launch in days, not months.",
-    hashtags: ["postcrafts"],
+    hashtags: "postcrafts",
   },
 
   {
@@ -75,7 +75,7 @@ const testimonials = [
     avatar: pro08,
     content:
       "My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
-    hashtags: ["postcrafts"],
+    hashtags: "postcrafts",
   },
 ];
 

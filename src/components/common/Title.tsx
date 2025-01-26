@@ -1,4 +1,6 @@
-const Title = ({ title, paragraph }) => {
+import { TTitle } from "../types/Types";
+
+const Title = ({ title, paragraph }: TTitle) => {
   return (
     <div className="max-w-[580px] mx-auto text-center">
       <h1 className="text-[42px] font-semibold">{title}</h1>

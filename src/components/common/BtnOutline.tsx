@@ -1,4 +1,4 @@
-const BtnOutline = ({ children }) => {
+const BtnOutline: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <button className="w-full border border-[#12141D] px-5 py-3 rounded-lg">
       {children}

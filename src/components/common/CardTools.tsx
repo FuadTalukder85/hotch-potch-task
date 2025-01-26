@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
+import { TCardtools } from "../types/Types";
 
-const CardTools = ({ toolsImg, title, paragraph }) => {
+const CardTools = ({ toolsImg, title, paragraph }: TCardtools) => {
   return (
     <div>
       <div className="flex gap-4 bg-[#282A37] px-6 py-7 rounded-[10px]">

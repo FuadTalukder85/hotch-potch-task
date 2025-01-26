@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TTestimonials } from "../types/Types";
 const TestimonialsCard = ({
   reviewImg,
   name,
@@ -6,7 +7,7 @@ const TestimonialsCard = ({
   icon,
   content,
   tag,
-}) => {
+}: TTestimonials) => {
   return (
     <div className="bg-white text-[#12141D] ps-5 pr-7 py-6 rounded-[5px]">
       <div className="flex justify-between items-center">
