@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Blog from "@/components/Blog";
 import Packages from "@/components/Packages";
 import Testimonials from "@/components/Testimonials";
 import Tools from "@/components/Tools";
@@ -11,6 +12,7 @@ const page = () => {
       <Banner></Banner>
       <TrustedCustomers></TrustedCustomers>
       <Tools></Tools>
+      <Blog></Blog>
       <Testimonials></Testimonials>
       <Packages></Packages>
     </div>

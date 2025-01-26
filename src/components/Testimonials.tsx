@@ -81,7 +81,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#171924] border-b border-[#252835] py-20 mt-32">
+    <div className="bg-[#171924] border-b border-[#252835] py-20 mt-28">
       <Container>
         <Title
           title={"What our customers say"}

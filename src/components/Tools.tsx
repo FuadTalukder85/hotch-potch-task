@@ -59,26 +59,33 @@ const toolsData = [
 
 const Tools = () => {
   return (
-    <Container>
-      <div className="mt-36">
-        <Title
-          title={"54 exciting writing tools"}
-          paragraph={
-            "AI engines take information from various sources and read them like a human would do."
-          }
-        ></Title>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-14">
-          {toolsData?.map((item) => (
-            <CardTools
-              key={item.id}
-              toolsImg={item.icon}
-              title={item.title}
-              paragraph={item.description}
-            ></CardTools>
-          ))}
+    <div className="border-b border-[#252835]">
+      <Container>
+        <div className="mt-36">
+          <Title
+            title={"54 exciting writing tools"}
+            paragraph={
+              "AI engines take information from various sources and read them like a human would do."
+            }
+          ></Title>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-14">
+            {toolsData?.map((item) => (
+              <CardTools
+                key={item.id}
+                toolsImg={item.icon}
+                title={item.title}
+                paragraph={item.description}
+              ></CardTools>
+            ))}
+          </div>
+          <div className="text-center">
+            <button className="text-[16px] font-semibold mx-auto pt-14 pb-24">
+              See all 54 available tools
+            </button>
+          </div>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 
