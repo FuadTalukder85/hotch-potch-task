@@ -5,6 +5,8 @@
 body {
   font-family: var(--font-inter-sans), var(--font-outfit-mono), sans-serif;
 }
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--font-outfit-mono), sans-serif;
 }

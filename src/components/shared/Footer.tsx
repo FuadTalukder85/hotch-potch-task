@@ -14,9 +14,9 @@ const resources = [
 
 const Footer = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between mt-20">
       <div>
-        <h3 className="font-semibold text-[16px]">Company</h3>
+        <p className="font-semibold text-[16px]">Company</p>
         <ul className="font-normal text-sm mt-7">
           {company?.map((item) => (
             <li key={item} className="pb-4 text-sm font-normal">
@@ -26,7 +26,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h3 className="font-semibold text-[16px]">Help</h3>
+        <p className="font-semibold text-[16px]">Help</p>
         <ul className="font-normal text-sm mt-7">
           {help?.map((item) => (
             <li key={item} className="pb-4 text-sm font-normal">
@@ -36,7 +36,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h3 className="font-semibold text-[16px]">Resources</h3>
+        <p className="font-semibold text-[16px]">Resources</p>
         <ul className="font-normal text-sm mt-7">
           {resources?.map((item) => (
             <li key={item} className="pb-4 text-sm font-normal">
@@ -46,7 +46,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <h3 className="font-semibold text-[16px]">Links</h3>
+        <p className="font-semibold text-[16px]">Links</p>
         <ul className="font-normal text-sm mt-7">
           {resources?.map((item) => (
             <li key={item} className="pb-4 text-sm font-normal">
