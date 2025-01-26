@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Packages from "@/components/Packages";
 import Testimonials from "@/components/Testimonials";
 import Tools from "@/components/Tools";
 import TrustedCustomers from "@/components/TrustedCustomers";
@@ -11,6 +12,7 @@ const page = () => {
       <TrustedCustomers></TrustedCustomers>
       <Tools></Tools>
       <Testimonials></Testimonials>
+      <Packages></Packages>
     </div>
   );
 };
