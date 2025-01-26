@@ -5,11 +5,13 @@ import React from "react";
 
 const layout = ({ children }) => {
   return (
-    <Container>
-      <Nav></Nav>
-      {children}
-      <Footer></Footer>
-    </Container>
+    <div className="bg-[#12141D] text-white">
+      <Container>
+        <Nav></Nav>
+        {children}
+        <Footer></Footer>
+      </Container>
+    </div>
   );
 };
 
