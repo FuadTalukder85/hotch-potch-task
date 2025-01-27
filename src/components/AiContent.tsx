@@ -87,7 +87,7 @@ const AiContent = () => {
         </div>
 
         {/* Right: Text */}
-        <div className="h-[700px] md:h-[554px] overflow-hidden md:flex gap-10 max-w-xl relative bg-white rounded-lg p-5">
+        <div className="md:h-[554px] overflow-hidden md:flex gap-10 max-w-xl relative bg-white rounded-lg p-5">
           <div>
             <ul className="text-sm font-normal space-y-4 text-[#B7B8BB]">
               <li>Blog Outline</li>
@@ -125,14 +125,14 @@ const AiContent = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="h-[400px] md:h-full overflow-y-auto no-scrollbar">
             <h4 className="text-[#12141D] text-lg font-semibold mb-1 mt-3 md:mt-0">
               Results
             </h4>
             <p className="text-[#B7B8BB] text-sm font-normal">
               Here's what our AI came up with.
             </p>
-            <div className="md:h-[500px] overflow-y-auto no-scrollbar">
+            <div className="">
               <div className="bg-[#12141D] rounded-lg p-5 mt-5">
                 <ul className="space-y-3">
                   <li className="mb-5">

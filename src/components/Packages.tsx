@@ -48,9 +48,12 @@ const Packages = () => {
           title={"Make the wise decision for your business"}
           paragraph={"Choose from our affordable 3 packages"}
         />
-        <div className="max-w-5xl mx-auto mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="max-w-5xl mx-auto mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6">
           {plans.map((plan, index) => (
-            <div key={index} className="relative bg-[#282A37] rounded-2xl p-8">
+            <div
+              key={index}
+              className="relative bg-[#282A37] rounded-2xl p-8 hover:scale-105 transition-all duration-300 cursor-pointer"
+            >
               <p className="text-[#B7B8BB]">{plan.name}</p>
               <h1 className="mt-7 font-semibold text-5xl">
                 {plan.price}

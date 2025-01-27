@@ -9,7 +9,7 @@ const TestimonialsCard = ({
   tag,
 }: TTestimonials) => {
   return (
-    <div className="bg-white text-[#12141D] ps-5 pr-7 py-6 rounded-[5px]">
+    <div className="bg-white text-[#12141D] ps-5 pr-7 py-6 rounded-[5px] hover:bg-blue-50 hover:scale-105 transition-all duration-300 cursor-pointer">
       <div className="flex justify-between items-center">
         <div className="flex gap-3">
           <div>

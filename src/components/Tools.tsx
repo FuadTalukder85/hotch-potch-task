@@ -68,7 +68,7 @@ const Tools = () => {
               "AI engines take information from various sources and read them like a human would do."
             }
           ></Title>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-14">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-6 mt-14">
             {toolsData?.map((item) => (
               <CardTools
                 key={item.id}

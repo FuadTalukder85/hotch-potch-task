@@ -22,7 +22,7 @@ const Footer = () => {
           It will help you improve your writing & bring ideas more c learly.
         </h2>
         <div className="mt-5 md:mt-0">
-          <button className="bg-white text-[#12141D] font-semibold text-[16px] px-5 py-4 rounded-[5px]">
+          <button className="w-full bg-white text-[#12141D] font-semibold text-[16px] px-5 py-2 md:py-4 rounded-[5px] hover:bg-[#2B59FF] hover:text-white transition-all duration-300">
             Start 14 Days Free Trial
           </button>
         </div>
