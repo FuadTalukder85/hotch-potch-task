@@ -1,3 +1,5 @@
+"use client";
+import React, { useState } from "react";
 import Title from "./common/Title";
 import CardTools from "./common/CardTools";
 import tools01 from "../../public/images/tool01.png";
@@ -55,9 +57,39 @@ const toolsData = [
     description: "Write a better blog title with our AI tool",
     icon: tools01,
   },
+  {
+    id: 9,
+    title: "Content Rewriter",
+    description: "Get AI writer to rewrite your sentence in a different way",
+    icon: tools04,
+  },
+  {
+    id: 10,
+    title: "Product Description",
+    description: "Need an attention-grabbing headline for your article?",
+    icon: tools02,
+  },
+  {
+    id: 11,
+    title: "PAS Copywriting Formula",
+    description: "Get AI writer to rewrite your sentence in a different way",
+    icon: tools03,
+  },
+  {
+    id: 12,
+    title: "Company About Us",
+    description: "Write a better blog title with our AI tool",
+    icon: tools01,
+  },
 ];
 
 const Tools = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const handleShowAll = () => {
+    setShowAll(true);
+  };
+
   return (
     <div className="border-b border-[#252835]">
       <Container>
@@ -67,22 +99,27 @@ const Tools = () => {
             paragraph={
               "AI engines take information from various sources and read them like a human would do."
             }
-          ></Title>
+          />
           <div className="grid grid-cols-1 md:grid-cols-4 gap-3 md:gap-6 mt-14">
-            {toolsData?.map((item) => (
+            {toolsData?.slice(0, showAll ? toolsData.length : 8).map((item) => (
               <CardTools
                 key={item.id}
                 toolsImg={item.icon}
                 title={item.title}
                 paragraph={item.description}
-              ></CardTools>
+              />
             ))}
           </div>
-          <div className="text-center">
-            <button className="text-[16px] font-semibold mx-auto pt-8 md:pt-14 pb-4 md:pb-24">
-              See all 54 available tools
-            </button>
-          </div>
+          {!showAll && (
+            <div className="text-center pt-8 md:pt-14 pb-4 md:pb-24">
+              <button
+                onClick={handleShowAll}
+                className="text-[16px] font-semibold mx-auto hover:text-[#2B59FF] transition-all duration-300"
+              >
+                See all 54 available tools
+              </button>
+            </div>
+          )}
         </div>
       </Container>
     </div>

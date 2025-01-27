@@ -1,7 +1,6 @@
 import Image from "next/image";
 import icon from "../../public/images/icon.png";
 import { BtnPrimary } from "./common/Button";
-import { IoIosPlayCircle } from "react-icons/io";
 
 const Banner = () => {
   return (

@@ -8,7 +8,7 @@ const AiContent = () => {
           <div className="h-[450px] overflow-y-auto no-scrollbar bg-white text-[#12141D] p-6 rounded-lg">
             <h4 className="text-lg font-semibold mb-1">Results</h4>
             <p className="text-[#B7B8BB] text-sm font-normal">
-              Here's what our AI came up with.
+              {" Here's what our AI came up with."}
             </p>
             <div className="bg-blue-50 bg-opacity-70 rounded-lg mt-5 p-4">
               <p className="text-sm font-normal">
@@ -130,7 +130,7 @@ const AiContent = () => {
               Results
             </h4>
             <p className="text-[#B7B8BB] text-sm font-normal">
-              Here's what our AI came up with.
+              {" Here's what our AI came up with."}
             </p>
             <div className="">
               <div className="bg-[#12141D] rounded-lg p-5 mt-5">
