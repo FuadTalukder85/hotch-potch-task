@@ -19,7 +19,7 @@ const Nav = () => {
           </ul>
         </div>
         <div className="flex gap-2">
-          <button className="border border-[#FAFAFA] px-5 py-3 rounded-[5px]">
+          <button className="border border-[#252835] px-5 py-3 rounded-[5px]">
             Sign in
           </button>
           <BtnPrimary>Get Started Free</BtnPrimary>

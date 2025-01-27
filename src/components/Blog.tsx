@@ -1,7 +1,6 @@
 "use client";
-
 import React, { useState } from "react";
-
+import { BtnFull, BtnOutline } from "./common/Button";
 const Blog = () => {
   const [activeItem, setActiveItem] = useState("Blog Headlines");
 
@@ -27,21 +26,16 @@ const Blog = () => {
       <h1 className="max-w-[430px] mx-auto text-center text-3xl md:text-[42px] font-semibold md:leading-[50px]">
         Mixland helps you build beautiful website
       </h1>
-      <div className="max-w-7xl mx-auto flex gap-10 flex-col md:flex-row pt-20">
+      <div className="flex gap-10 flex-col md:flex-row pt-20">
         <div className="w-full max-w-xs space-y-2 p-4">
           {menuItems.map((item) => (
-            <button
-              key={item}
-              onClick={() => setActiveItem(item)}
-              className={`w-full px-4 py-3 text-left rounded-lg transition-colors text-[16px] font-semibold
-                ${
-                  activeItem === item
-                    ? "bg-gradient-to-r from-[#2B59FF] from-10%  to-[#BB2BFF] to-90%"
-                    : "border border-[#282A37] hover:bg-gray-800"
-                }`}
-            >
-              {item}
-            </button>
+            <div key={item} onClick={() => setActiveItem(item)} className="">
+              {activeItem === item ? (
+                <BtnFull>{item}</BtnFull>
+              ) : (
+                <BtnOutline>{item}</BtnOutline>
+              )}
+            </div>
           ))}
         </div>
         <div className="flex-1 p-6 bg-[#282A37] rounded-lg">

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import icon from "../../public/images/icon.png";
-import BtnPrimary from "./common/BtnPrimary";
+import { BtnPrimary } from "./common/Button";
+import { IoIosPlayCircle } from "react-icons/io";
 
 const Banner = () => {
   return (
@@ -20,9 +21,18 @@ const Banner = () => {
         <div className="mt-10">
           <BtnPrimary>Start 14 Days Free Trial</BtnPrimary>
         </div>
-        <button className="flex gap-2 items-center mx-auto mt-6">
-          <Image src={icon} alt="icon" width={15} height={15}></Image> Watch A
-          Demo
+
+        <button className="relative overflow-hidden cursor-pointer group mt-6">
+          <span className="absolute inset-0 bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] transition-all duration-300 ease-out opacity-0 group-hover:opacity-100 rounded-md"></span>
+          <span className="absolute inset-[1px] bg-[#12141D] py-2 rounded-md"></span>
+          <span className="relative flex items-center justify-center gap-2 text-[16px] font-semibold px-10 py-2">
+            <span className="flex items-center justify-center w-3 h-3 rounded-full bg-white group-hover:bg-gradient-to-r group-hover:from-[#2B59FF] group-hover:to-[#BB2BFF] transition-all duration-300 ease-out">
+              <Image src={icon} alt="icon" width={6} height={6} />
+            </span>
+            <span className="text-[16px] font-semibold bg-clip-text text-transparent bg-gradient-to-r from-white to-white group-hover:from-[#2B59FF] group-hover:to-[#BB2BFF] transition-all duration-300 ease-out">
+              Watch A Demo
+            </span>
+          </span>
         </button>
       </div>
     </div>

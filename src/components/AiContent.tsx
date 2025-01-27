@@ -1,5 +1,5 @@
 import React from "react";
-import BtnPrimary from "./common/BtnPrimary";
+import { BtnPrimary } from "./common/Button";
 const AiContent = () => {
   return (
     <div className="p-3 md:p-0">
