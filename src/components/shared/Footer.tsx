@@ -17,17 +17,17 @@ const resources = [
 const Footer = () => {
   return (
     <Container>
-      <div className="flex justify-between items-center bg-gradient-to-r from-[#2B59FF] from-10%  to-[#BB2BFF] to-90% px-12 py-8 rounded-[5px] mt-10">
-        <h2 className="font-semibold text-3xl max-w-xl md:pr-20">
+      <div className="md:flex justify-between items-center bg-gradient-to-r from-[#2B59FF] from-10%  to-[#BB2BFF] to-90% px-12 py-8 rounded-[5px] mt-10">
+        <h2 className="font-semibold text-xl md:text-3xl max-w-xl md:pr-20">
           It will help you improve your writing & bring ideas more c learly.
         </h2>
-        <div>
+        <div className="mt-5 md:mt-0">
           <button className="bg-white text-[#12141D] font-semibold text-[16px] px-5 py-4 rounded-[5px]">
             Start 14 Days Free Trial
           </button>
         </div>
       </div>
-      <div className="flex justify-between py-24">
+      <div className="grid grid-cols-2 md:flex gap-5 justify-between p-3 md:p-0 py-10 md:py-24">
         <div>
           <p className="font-semibold text-[16px]">Company</p>
           <ul className="font-normal text-sm mt-7">

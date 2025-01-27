@@ -61,7 +61,7 @@ const Tools = () => {
   return (
     <div className="border-b border-[#252835]">
       <Container>
-        <div className="mt-36">
+        <div className="mt-10 md:mt-36 p-3 md:p-0">
           <Title
             title={"54 exciting writing tools"}
             paragraph={
@@ -79,7 +79,7 @@ const Tools = () => {
             ))}
           </div>
           <div className="text-center">
-            <button className="text-[16px] font-semibold mx-auto pt-14 pb-24">
+            <button className="text-[16px] font-semibold mx-auto pt-8 md:pt-14 pb-4 md:pb-24">
               See all 54 available tools
             </button>
           </div>

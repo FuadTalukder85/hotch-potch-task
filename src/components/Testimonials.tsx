@@ -81,7 +81,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#171924] border-b border-[#252835] py-20 mt-28">
+    <div className="bg-[#171924] border-b border-[#252835] p-3 md:p-0 py-10 md:py-20 mt-10 md:mt-28">
       <Container>
         <Title
           title={"What our customers say"}
@@ -96,7 +96,7 @@ const Testimonials = () => {
           }}
         >
           {testimonials.map((item, index) => (
-            <div key={index} className="mb-6">
+            <div key={index} className="mb-3 md:mb-6">
               <TestimonialsCard
                 reviewImg={item.avatar}
                 name={item.name}

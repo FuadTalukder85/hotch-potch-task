@@ -5,13 +5,13 @@ import BtnOutline from "./common/BtnOutline";
 
 const Packages = () => {
   return (
-    <div className="py-20">
+    <div className="py-10 md:py-20 p-3 md:p-0">
       <Container>
         <Title
           title={"Make the wise decision for your business"}
           paragraph={"Choose from our affordable 3 packages"}
         />
-        <div className="max-w-5xl mx-auto mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="max-w-5xl mx-auto mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* card 01 */}
           <div className="relative bg-[#282A37] rounded-2xl p-8">
             <p className="text-[#B7B8BB]">Starter Plan</p>

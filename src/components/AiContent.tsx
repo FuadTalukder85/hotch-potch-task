@@ -2,9 +2,9 @@ import React from "react";
 import BtnPrimary from "./common/BtnPrimary";
 const AiContent = () => {
   return (
-    <div className="">
-      <div className="pt-36 max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-        <div className="w-[406px] relative">
+    <div className="p-3 md:p-0">
+      <div className="pt-36 md:max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+        <div className="md:w-[406px] relative">
           <div className="h-[450px] overflow-y-auto no-scrollbar bg-white text-[#12141D] p-6 rounded-lg">
             <h4 className="text-lg font-semibold mb-1">Results</h4>
             <p className="text-[#B7B8BB] text-sm font-normal">
@@ -41,7 +41,7 @@ const AiContent = () => {
                 tax for you!
               </p>
             </div>
-            <div className="absolute w-60 bg-white p-3 rounded-lg top-64 -right-20">
+            <div className="absolute w-56 md:w-60 bg-white p-3 rounded-lg -top-24 md:top-64 right-0 md:-right-20">
               <div className="flex gap-2">
                 <div className="w-2 h-2 rounded-full bg-[#FF5F56]" />
                 <div className="w-2 h-2 rounded-full bg-[#FFBD2E]" />
@@ -56,7 +56,7 @@ const AiContent = () => {
         </div>
         {/* Right: Text */}
         <div className="">
-          <h1 className="text-[42px] font-semibold leading-[50px]">
+          <h1 className="text-3xl md:text-[42px] font-semibold md:leading-[50px]">
             Create content efficiently and quickly with great AI writing tools
           </h1>
           <p className="text-lg font-normal text-[#B7B8BB] mt-5">
@@ -64,19 +64,19 @@ const AiContent = () => {
             cost. Start for free. Ai Writer Tool | Generate text for ecom,
             social media, website, sales, blogs etc.
           </p>
-          <div className="mt-10">
+          <div className="mt-10 flex md:block justify-center">
             <BtnPrimary>Start 14 Days Free Trial</BtnPrimary>
           </div>
         </div>
       </div>
 
       {/* Section 2 */}
-      <div className="pt-36 max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+      <div className="pt-10 md:pt-36 md:max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         <div className="">
-          <h1 className="text-[42px] font-semibold leading-[50px]">
+          <h1 className="text-3xl md:text-[42px] font-semibold md:leading-[50px]">
             Write what you want to convey through clear, & authentic writing
           </h1>
-          <p className="text-lg font-normal text-[#B7B8BB] mt-5 pr-28">
+          <p className="text-lg font-normal text-[#B7B8BB] mt-5 md:pr-28">
             AI-Writer is the most accurate content generation platform and
             writing tool that helps you transform your text into a completely
             personalized.
@@ -87,7 +87,7 @@ const AiContent = () => {
         </div>
 
         {/* Right: Text */}
-        <div className="h-[554px] overflow-hidden flex gap-10 max-w-xl relative bg-white rounded-lg p-5">
+        <div className="h-[700px] md:h-[554px] overflow-hidden md:flex gap-10 max-w-xl relative bg-white rounded-lg p-5">
           <div>
             <ul className="text-sm font-normal space-y-4 text-[#B7B8BB]">
               <li>Blog Outline</li>
@@ -126,13 +126,13 @@ const AiContent = () => {
             </ul>
           </div>
           <div>
-            <h4 className="text-[#12141D] text-lg font-semibold mb-1">
+            <h4 className="text-[#12141D] text-lg font-semibold mb-1 mt-3 md:mt-0">
               Results
             </h4>
             <p className="text-[#B7B8BB] text-sm font-normal">
               Here's what our AI came up with.
             </p>
-            <div className="h-[500px] overflow-y-auto no-scrollbar">
+            <div className="md:h-[500px] overflow-y-auto no-scrollbar">
               <div className="bg-[#12141D] rounded-lg p-5 mt-5">
                 <ul className="space-y-3">
                   <li className="mb-5">
@@ -149,7 +149,7 @@ const AiContent = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-5">
+              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-3">
                 <ul className="space-y-3">
                   <li className="mb-5">
                     <div className="w-12 h-[6px] rounded-full bg-[#E1E3E8]" />
@@ -165,7 +165,7 @@ const AiContent = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-5">
+              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-3">
                 <ul className="space-y-3">
                   <li className="mb-5">
                     <div className="w-12 h-[6px] rounded-full bg-[#E1E3E8]" />
@@ -181,7 +181,7 @@ const AiContent = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-5">
+              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-3">
                 <ul className="space-y-3">
                   <li className="mb-5">
                     <div className="w-12 h-[6px] rounded-full bg-[#E1E3E8]" />
@@ -197,7 +197,7 @@ const AiContent = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-5">
+              <div className="bg-blue-50 bg-opacity-70 rounded-lg p-5 mt-3">
                 <ul className="space-y-3">
                   <li className="mb-5">
                     <div className="w-12 h-[6px] rounded-full bg-[#E1E3E8]" />

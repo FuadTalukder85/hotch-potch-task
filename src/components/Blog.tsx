@@ -23,8 +23,8 @@ const Blog = () => {
   ];
 
   return (
-    <div className="max-w-[1085px] mx-auto p-3 mt-20">
-      <h1 className="max-w-[430px] mx-auto text-center text-[42px] font-semibold">
+    <div className="max-w-[1085px] mx-auto p-3 md:p-0 mt-10 md:mt-20">
+      <h1 className="max-w-[430px] mx-auto text-center text-3xl md:text-[42px] font-semibold md:leading-[50px]">
         Mixland helps you build beautiful website
       </h1>
       <div className="max-w-7xl mx-auto flex gap-10 flex-col md:flex-row pt-20">
