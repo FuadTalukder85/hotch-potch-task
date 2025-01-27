@@ -1,3 +1,4 @@
+import AiContent from "@/components/AiContent";
 import Banner from "@/components/Banner";
 import Blog from "@/components/Blog";
 import Packages from "@/components/Packages";
@@ -11,6 +12,7 @@ const page = () => {
     <div>
       <Banner></Banner>
       <TrustedCustomers></TrustedCustomers>
+      <AiContent></AiContent>
       <Tools></Tools>
       <Blog></Blog>
       <Testimonials></Testimonials>
